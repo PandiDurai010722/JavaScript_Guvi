@@ -1,0 +1,25 @@
+HTTP Methods
+
+
+Students Information 
+
+GET    =>  Read Student = Safe Methods
+HEAD   =>  Inspect resource = Safe Methods 
+POST   =>  Create  Students
+PUT    =>  Update Students
+DELETE =>  Delete Students
+PATCH  =>  Partically modify a resource
+TRACE  =>  ECHO back Received message 
+OPTIONS=>  Server Capabilities
+
+Website => Static  site 
+WebApp  => Dynamic for every user 
+
+
+HTTP Return codes 
+
+100-199 => Hold on 
+200-299 => Successful
+300-399 => Redirection message
+400-499 => Client Error Responses 
+500-599 => Server Error Responses

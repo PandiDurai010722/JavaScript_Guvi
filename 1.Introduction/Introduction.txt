@@ -1,0 +1,268 @@
+First Principles Thinking 
+
+Molecule => Atom => Nucleus => Proton => Quark 
+
+
+
+Installations
+
+  1. Text editor-Sublime/Notepad++ or IDE(Intergreted development environment)
+  2. GitHub account & Git 
+  3. Postman
+  4. Node  
+  5. Browser 
+  6. Accounts 
+    
+     1,Heroku
+     2.Netlify
+
+
+statically typed languages ex(c,c++,java)
+
+#Complie after run any if issue in code stop in compile 
+ 
+
+ Dynamically typed languages ex(Javascript,python,php,ruby perl,Erlang)
+
+ any if issue in code after in run stage 
+ 
+
+ First Web  Browser 
+
+  # tim berners lee -> first browser founder 
+
+  # First web Browser -> Mosaic ncsa organization 
+
+  # Marc Andreessen -> first browser founder 
+
+  # Netscape -> tim && Marc 
+
+  # Microsoft -> internet explore (second browser)  free 
+
+  # first war netscape vs internet explore
+  
+  # Second war internet explore vs google chrome
+
+
+  Who is found in Javascript?
+
+  @ Created by Netscape -1995
+  @ Originally called LiveWire then LiveScript  
+  @ Developed by Brandon Eich 
+  @ Named to make use of java market buzz
+  @ IE and Netscape rendering are slightly different 
+  @ JScript created by Microsoft vs Javascript 
+  @ Standardized today as ECMAScript 
+
+
+  Browser 
+
+     HTML -> HTML PARSER DOM -> hyper text markup language
+
+     js-> js Engine Javascript
+
+     CSS->  CSS PARSER -> CSSOM castcated style sheet 
+
+
+
+Interview question 
+
+Dom is nothing  but a tree like a structure or object represent of your html elements 
+
+Structure of a Web Browser 
+
+
+                                                                    User Interface ----------|
+                                                                          |                  |
+                                                                   Browser Engine            |--------database 
+                                                                          |                  |
+                                                                Rendering Engine             |
+                                                                 |            |              |
+
+                                          
+                                                         Networking       Js engine       UI backend 
+
+                            
+ # Rendering engine 
+
+  Trident  -   IE
+  Blink    -   Google chrome , Opera 
+  Gecko    -   Firefox
+  Webkit   -   Safari
+  presto   -   Opera
+
+
+  # JS Engine 
+
+  v8            -     google Chrome 
+
+  spiderMonkey  -     Mozilo Firefox
+
+  Chakra        -     IE  
+
+  Nitro         -     Safari
+
+
+
+
+Design of JS - JavaScript 
+
+
+  - 2 simple ideas 
+
+  - key : value  - Everything 
+
+  - Asynchronous - I wont Block your work 
+
+
+
+   JavaScript  -  Sandboxed                                  JavaScript - Stripped
+
+      
+        Browser                                                      Node js
+                     
+
+                                  Javascript 
+
+
+
+
+.Google Chrome 
+
+  > Blink 
+
+   a. Fork of Webkit 
+
+   b  C++ 
+
+   c  Developed in house by  Google  as part  of  the Chromium Project "to open- source the code for the Google Chrome browser "
+
+   d.https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAlsAz24kX8LFByQ5xQnUg/edit
+
+
+.V8 
+  
+  - Developed in house by google as part of The Chromium Project 
+
+  - Used in Node.JS!
+
+
+.Mozilla Firefox 
+
+   .Gecko 
+
+     - Developed in house by Mozilla 
+
+     - Written in Rust !
+
+. spiderMonkey 
+
+   - The first Javascript engine in history.Developed by Brendan Eich, The creator of javascript While he was at Netscape 
+
+
+.Safari 
+  .Webkit 
+  
+   - Created by Apple as a fork of the KHTML and KJS engines from Konqueror,
+    a web browser developed by KDE.
+    .Nitro (formerly SquirrelFish)
+
+.Edge 
+   .EdgeHTML 
+   - A fork of Internet  Explore's Trident that  was made not -shitty
+   .Chakara
+    - Open-sourcec as ChakraCore.
+    - In 2016,Microsoft  created  a PR in the Node.Js GitHub repo to use ChakaraCore 
+       instead of  V8. This PR was expanded out into its own project and now lives here as a project of the node organization.
+.Opera 
+
+   .Blink 
+     - Fork of Webkit.Part of Chrome 
+     .V8s 
+       .if something works on Google Chrome,you can expect it to work on Opera due to the identical rendering engine + JavaScript engine used.
+
+
+.Internet Explore
+  .Trident 
+  .Chakra 
+
+
+
+
+#Common  Internet Protocols 
+
+  .TCP/IP     =>  Transfer Control Protocol 
+  .HTTP/HTTPS => Hyper Text Transfer protocol , Hyper Text Transfer protocol secure 
+  .FTP        => File Transfer Protocol
+
+
+   
+
+         Unreliable                                     Reliable 
+
+      Connection Less                            Connection Oriented 
+
+     DNS,TFTP etc,                                 HTTP,FTPm etc                   Application Layer 
+
+     Messages  |                                        |                           Streams or Messages
+
+
+       User Datagram                           Transport Control Protocol              Transport Layer
+          Protocol 
+
+
+       User   Datagram                            TCP Packets
+
+
+                          Internet 
+                          Protocol                                              Internet Layer
+                             
+                             |  IP Datagrams
+
+
+                          Network                                             Network Access Layer
+                          
+
+                          Access
+
+
+IP - MAC address -Ports Discussion  
+
+Why IP address when  we have MAC address
+
+Why they are called as ports? Why we need ports?
+
+>IMEA-MAC
+>IP -Mobile Number
+>Port -USB/C-type
+
+>IP - Internet Protocol 
+>MAC - Media Access Control Address
+
+
+HTTP Methods 
+
+Students Information 
+
+GET => Read Student=Safe Methods
+HEAD => Inspect resource = Safe Methods
+POST => Create Students 
+PUT => Update Students
+DELETE => Delete Students
+PATCH => Particallly  modify a resource 
+TRACE =>  ECHO back Received message 
+OPTIONS => Server Capabilities
+
+Website => Static Stripped
+WebApp  => Dynamic for  every user 
+
+
+HTTP Return Codes
+
+100-199 => Hold on 
+200-299 => Successful
+300-399 => Redirection message
+400-499 => Client error responses
+500-599 => Server error responses
+
+                        
